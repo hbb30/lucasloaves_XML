@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE loaves [
+   <!ELEMENT loaves (sourdough)>
+   <!ELEMENT sourdough (type,price,description)>
+   <!ELEMENT type (#PCDATA)>
+   <!ELEMENT price (#PCDATA)>
+   <!ELEMENT description (#PCDATA)>
+]>
+
+<?xml-stylesheet type="text/xsl" href= "lucasloaves.xsl"?>
+<loaves>
+	<sourdough>
+		<type>Sourdough White</type>
+		<price>$7.00</price>
+		<description>Our standard sourdough</description>
+	</sourdough>
+	<sourdough>
+		<type>Sourdough Rye</type>
+		<price>$8.00</price>
+		<description>Sourdough created with 50% rye flour</description>
+	</sourdough>
+	<sourdough>
+		<type>Sourdough Spelt</type> 
+		<price>$9.00</price>
+		<description> Sourdough created with 100% spelt flour</description>
+	</sourdough>
+	<sourdough>
+		<type>Sourdough Seeded</type>
+		<price>$9.50</price>
+		<description>Sourdough including a mixture of yummy seeds</description>
+	</sourdough>
+</loaves>
